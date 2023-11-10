@@ -42,7 +42,7 @@ function App() {
       <input type="text" onChange={({target}) => search(target.value)} className='mx-20 border-2 border-black px-3 py-2 rounded-full w-96 bg-black text-white' placeholder='Cari film anda...'/>
     </div>
     </div>
-    <p className='text-white mt-36 mx-40 text-lg'>Movie (<span className='font-semibold'>{popularMovies.length}</span>)</p>
+    <p className='text-white mt-36 mx-40 text-lg'>Movie popular(<span className='font-semibold'>{popularMovies.length}</span>)</p>
   <div className='mt-2 flex flex-wrap gap-20 mx-10 justify-center mb-10'>
     <PopularMoviesList />
   </div>
